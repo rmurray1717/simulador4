@@ -12,7 +12,7 @@
     "build": "webpack  --mode production --progress --config webpack-prod.js",
     "dev": "webpack --mode development --progress --config webpack-dev.js",
     "watch": "webpack  --mode development --watch --progress --config webpack-dev.js",
-   "start": "webpack-dev-server -d --config webpack.dev.config.js --content-base public/ --progress --colors"
+   "start": "webpack-dev-server -d --content-base public/ --progress --colors"
     "add-svg": "vsvg -s assets/svgs -t src/svgs"
   },
   "browser": {
