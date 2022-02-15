@@ -15,7 +15,7 @@ module.exports = {
         static: resolve(__dirname, 'dist'),
         compress: true,
         port: 8888,
-        host: 'localhost',
+        host: 'window.location.hostname',
         watchContentBase: true,
         historyApiFallback: true,
         open: false,
