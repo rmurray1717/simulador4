@@ -15,7 +15,7 @@ module.exports = {
         static: resolve(__dirname, 'dist'),
         compress: true,
         port: 8888,
-        host: 'simulador4.herokuapp.com',
+        host: 'localhost',
         //watchContentBase: true,
         historyApiFallback: true,
         open: false,
