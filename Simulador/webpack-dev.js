@@ -14,7 +14,7 @@ module.exports = {
         https: true,
         static: resolve(__dirname, 'dist'),
         compress: true,
-        //port: 8888,
+        port: 9000,
         host: 'http://localhost:9000/webpack-dev-server',
         watchContentBase: true,
         historyApiFallback: true,
